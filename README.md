@@ -1,7 +1,9 @@
 # DungeonCrawler
 first git project, game written in python with the help of pygame library
 
-Steps: 
+
+      Steps: 
+
       1. Clone the repo 
       
       2. install pygame 
