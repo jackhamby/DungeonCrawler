@@ -2,8 +2,8 @@
 first git project, game written in python with the help of pygame library
 
 Steps: 
-      1. Clone the repo
-      2. install pygame 
+      1. Clone the repo \n
+      2. install pygame \n
            $ python3 -m pip install -U pygame --user
       3. Edit image uris
             a. Open settings.py 
