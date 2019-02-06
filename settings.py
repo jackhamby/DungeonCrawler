@@ -1,14 +1,10 @@
-import world, generate, characters, pygame
+import world, generate, characters, pygame, os
 
-base_img_url = "/Users/jackhamby/games/images/"
-health_pack_icon = pygame.image.load('/Users/jackhamby/games/dungeon_crawler/images/health_pack.png')
-speed_pack_icon = pygame.image.load('/Users/jackhamby/games/dungeon_crawler/images/speed_pack.png')
-arrow_pack_icon = pygame.image.load('/Users/jackhamby/games/dungeon_crawler/images/arrow_pack.png')
-arrow_projectile_up_icon = pygame.image.load('/Users/jackhamby/games/dungeon_crawler/images/arrow_projectile_up.png')
-
-# arrow_projectile_down_down = pygame.image.load('/Users/jackhamby/games/game3/images/arrow_projectile2.png')
-# arrow_projectile_right_down = pygame.image.load('/Users/jackhamby/games/game3/images/arrow_projectile2.png')
-# arrow_projectile_left_down = pygame.image.load('/Users/jackhamby/games/game3/images/arrow_projectile2.png')
+base_img_url = os.path.dirname(os.path.realpath(__file__))
+health_pack_icon = pygame.image.load(f'{base_img_url}/images/health_pack.png')
+speed_pack_icon = pygame.image.load(f'{base_img_url}/images/speed_pack.png')
+arrow_pack_icon = pygame.image.load(f'{base_img_url}/images/arrow_pack.png')
+arrow_projectile_up_icon = pygame.image.load(f'{base_img_url}/images/arrow_projectile_up.png')
 
 level = 1
 screenWidth = 1000

@@ -8,6 +8,7 @@ clock = ""
 rooms = []
 rooms = generate.generateRooms()
 adventurer = characters.Adventurer()
+print('made!')
 projectiles = []
 health_packs = generate.generate_health_packs()
 speed_packs = generate.generate_speed_packs()

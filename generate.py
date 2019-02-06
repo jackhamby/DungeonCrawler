@@ -108,6 +108,7 @@ def generateRooms():
         else:
             # print('searching for door ' + str(i))
             room.door.destination = rooms[i + 1].id
+    print('finished')
     return rooms
 
 
